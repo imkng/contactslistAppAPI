@@ -4,8 +4,6 @@ from .models import Contact
 from .serializers import ContactSerializer
 from rest_framework import permissions
 
-# Create your views here.
-
 
 class ContactList(ListCreateAPIView):
 
